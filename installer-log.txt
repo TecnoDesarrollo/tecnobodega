@@ -1,6 +1,6 @@
 ********************************************************************************
 DUPLICATOR INSTALL-LOG
-STEP1 START @ 02:10:24
+STEP1 START @ 05:14:20
 NOTICE: Do NOT post to public sites or forums
 ********************************************************************************
 VERSION:	0.5.32
@@ -37,7 +37,7 @@ UPDATED FILES:
 - SQL FILE:  'C:/xampp/htdocs/tecnobodega/installer-data.sql'
 - WP-CONFIG: 'C:/xampp/htdocs/tecnobodega/wp-config.php'
 
-ARCHIVE RUNTIME: 95.0084 sec.
+ARCHIVE RUNTIME: 61.3988 sec.
 
 
 ********************************************************************************
@@ -83,17 +83,17 @@ red_wpgmza_polygon: (0)
 red_wpgmza_polylines: (0)
 Removed '30' cache/transient rows
 
-SECTION RUNTIME: 15.6856 sec.
+SECTION RUNTIME: 11.9131 sec.
 
 ********************************************************************************
-STEP1 COMPLETE @ 02:12:15 - TOTAL RUNTIME: 110.7173 sec.
+STEP1 COMPLETE @ 05:15:34 - TOTAL RUNTIME: 73.3190 sec.
 ********************************************************************************
 
 
 
 ********************************************************************************
 DUPLICATOR INSTALL-LOG
-STEP2 START @ 02:13:38
+STEP2 START @ 05:15:57
 NOTICE: Do not post to public sites or forums
 ********************************************************************************
 CHARSET SERVER:	latin1
@@ -132,16 +132,16 @@ red_wpgmza_polygon^ (0)
 red_wpgmza_polylines^ (0)
 --------------------------------------
 SEARCH1:	'http://localhost/tecnobodega' 
-REPLACE1:	'http://192.168.0.21:8080/tecnobodega' 
+REPLACE1:	'http://192.168.0.21/tecnobodega' 
 SEARCH2:	'C:/xampp/htdocs/tecnobodega/' 
 REPLACE2:	'C:/xampp/htdocs/tecnobodega/' 
 SCANNED:	Tables:25 | Rows:1578 | Cells:11760 
 UPDATED:	Tables:2 | Rows:313 |Cells:373 
 ERRORS:		0 
-RUNTIME:	2.399300 sec
+RUNTIME:	1.985900 sec
 
 ********************************************************************************
-START FINAL CLEANUP: 02:13:41
+START FINAL CLEANUP: 05:15:59
 ********************************************************************************
 UPDATE `red_blogs` SET domain = '192.168.0.21' WHERE domain = 'localhost'
 
@@ -154,5 +154,5 @@ No Warnings Found
 WEB SERVER CONFIGURATION FILE BASIC SETUP:
 created basic .htaccess file.  If using IIS web.config this process will need to be done manually.
 ********************************************************************************
-STEP 2 COMPLETE @ 02:13:41 - TOTAL RUNTIME: 2.6561 sec.
+STEP 2 COMPLETE @ 05:15:59 - TOTAL RUNTIME: 2.2603 sec.
 ********************************************************************************
